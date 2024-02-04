@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Mapper\Mapper.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FluentAssertions" Version="7.0.0-alpha.3" />
+      <PackageReference Include="FluentAssertions.Json" Version="6.1.0" />
+      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+      <PackageReference Include="NUnit" Version="4.0.1" />
+    </ItemGroup>
+
+</Project>
